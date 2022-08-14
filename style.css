@@ -1,0 +1,28 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+.home-section {
+    padding-top: 80px;
+    background-color: blueviolet;
+}
+
+.section_heading
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section_heading h2
+{
+    font-size: 2rem;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.education-section {
+    padding: 100px 50px;
+    background-color: #807F7A;
+}
