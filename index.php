@@ -22,10 +22,11 @@
         <div class="row">
             <div class="col">
                 <h2>I am Muhammad Afiq</h2>
+                <h4>Looking for Internship Placement</h4>
             <button type="button" class="btn btn-outline-dark">See more ...</button>
             </div>
             <div class="col">
-                <img src="images/icon.JPG" alt="photo" style="width: 70%; height: 100%;">
+                <img src="images/test.JPG" alt="photo" style="width: 70%; height: 100%;">
             </div>
         </div>
         
@@ -41,7 +42,7 @@
         <div class="row">
             <div class="col-5">
                 <div class="p-3 border">
-                    <img src="icon.JPG" alt="photo" style="width: 100%;">
+                    <img src="images/test.JPG" alt="photo" style="width: 100%;">
                 </div>
             </div>
             <div class="col-7">
@@ -101,7 +102,7 @@
                         <small>Sept 2019 - Present</small>
                     </div>
                     <div class="col-3">
-                        <img src="logo-uitm.png" alt="" style="width: 95%; align-items: center; ">
+                        <img src="images/logo-uitm.png" alt="" style="width: 95%; align-items: center; ">
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@
                         <small>May 2018 - Apr 2019</small>
                     </div>
                     <div class="col-3">
-                        <img src="logo-kmkn.png" alt="" style="width: 45%; align-items: center; ">
+                        <img src="images/logo-kmkn.png" alt="" style="width: 45%; align-items: center; ">
                     </div>
                 </div>
             </div>
@@ -140,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <img src="logo-lg2.png" alt="" style="width: 40%; padding-top: 15px; ">
+                    <img src="images/logo-lg2.png" alt="" style="width: 40%; padding-top: 15px; ">
                 </div>
             </div>
             
@@ -184,6 +185,19 @@
 </section>
 
 <!-- CURRICULAR ACTIVITIES SECTION -->
+<section class="activity-section" id="activity">
+    <div class="container">
+        <div class="section_heading">
+            <h2>ACTIVITY</h2>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">MALAY</li>
+            <li class="list-group-item">ENGLISH</li>
+            <li class="list-group-item">ARABIC</li>
+        </ul>
+    </div>
+</section>
+
 <!-- WORK EXPERIENCES -->
 <section class="experience-section" id="experience">
     <div class="container">
@@ -200,7 +214,7 @@
                         <small>May 2018 - July 2019</small>
                     </div>
                     <div class="col-3">
-                        <img src="iman-catering.jpg" alt="" style="width: 80%; align-items: center; ">
+                        <img src="images/iman-catering.jpg" alt="" style="width: 80%; align-items: center; ">
                     </div>
                 </div>
             </div>

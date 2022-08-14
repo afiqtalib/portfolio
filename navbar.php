@@ -60,7 +60,7 @@
     .nav ul li a.active,
     .nav ul li a:focus,
     .nav ul li a:hover {
-      color: gold;
+      color: blue;
     }
     /*** END HEADER TOP STYLE ***/
     </style>
