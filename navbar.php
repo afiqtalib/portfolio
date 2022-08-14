@@ -11,7 +11,7 @@
     }
 
     header{
-      position: sticky;
+      position: fixed;
       width: 100%;
       height: 70px;
       top: 0;
