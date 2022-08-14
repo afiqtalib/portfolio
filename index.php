@@ -3,6 +3,9 @@
     include "navbar.php";
 ?>
 
+<!-- Include CSS -->
+    <link rel="stylesheet" href="style.css">
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +19,16 @@
     <!-- HOME SECTION -->
 <section class="home-section" id="home">
     <div class="container">
-        <h2>I am Muhammad Afiq</h2>
-        <button type="button" class="btn btn-outline-dark">See more ...</button>
+        <div class="row">
+            <div class="col">
+                <h2>I am Muhammad Afiq</h2>
+            <button type="button" class="btn btn-outline-dark">See more ...</button>
+            </div>
+            <div class="col">
+                <img src="icon.JPG" alt="photo" style="width: 70%; height: 100%;">
+            </div>
+        </div>
+        
     </div>
 </section>
 
@@ -142,9 +153,64 @@
 </section>
 
 <!-- SKILLS -->
+<section class="skill-section" id="skills">
+    <div class="container">
+        <div class="section_heading">
+            <h2>SKILLS</h2>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">BOOTSTRAP</li>
+            <li class="list-group-item">MYSQL</li>
+            <li class="list-group-item">PHP</li>
+            <li class="list-group-item">Power BI</li>
+        </ul>
+    </div>
+</section>
+
 <!-- LANGUAGE -->
+<section class="language-section" id="language">
+    <div class="container">
+        <div class="section_heading">
+            <h2>LANGUAGE</h2>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">MALAY</li>
+            <li class="list-group-item">ENGLISH</li>
+            <li class="list-group-item">ARABIC</li>
+        </ul>
+    </div>
+</section>
+
 <!-- CURRICULAR ACTIVITIES SECTION -->
 <!-- WORK EXPERIENCES -->
+<section class="experience-section" id="experience">
+    <div class="container">
+        <div class="section_heading">
+            <h2>EXPERIENCES</h2>
+        </div>
+
+        <div class="card" style="width: 90%;">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-7">
+                        <h5 class="card-title">Iman Catering-KB</h5>
+                        <p class="card-text"> Kitchen Helper & Runner </p>
+                        <small>May 2018 - July 2019</small>
+                    </div>
+                    <div class="col-3">
+                        <img src="iman-catering.jpg" alt="" style="width: 80%; align-items: center; ">
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Prepare the food following the SOP properly</li>
+                <li class="list-group-item">Arrange the schedule time to delivery for customers</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
 </body>

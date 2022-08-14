@@ -1,12 +1,16 @@
+* {
+    margin: 0;
+    box-sizing: border-box;  
+}  
+
 html
 {
 	scroll-behavior: smooth;
 }
 
-
 .home-section {
-    padding-top: 80px;
-    background-color: blueviolet;
+    padding: 100px 50px;
+    background-color: #F8f7f9;
 }
 
 .section_heading
@@ -17,12 +21,20 @@ html
 
 .section_heading h2
 {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 48px;
-    font-weight: 400;
+    font-weight: bold;
+    color: #091540;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-section {
+    padding: 100px 50px;
+    background-color: #F8f7f9;
 }
 
 .education-section {
     padding: 100px 50px;
-    background-color: #807F7A;
+    background-color: #F8f7f9;
 }

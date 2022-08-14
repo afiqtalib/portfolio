@@ -20,7 +20,7 @@
       align-items: center;
       padding: 5px 30px;
       z-index: 999;
-      background-color: grey;
+      background-color: #091540;
       box-sizing: border-box;
     }
 
@@ -50,7 +50,7 @@
       margin: 0 2px;
       text-decoration: none;
       text-transform: uppercase;
-      color: white;
+      color: #F8f7f9;
       letter-spacing: 1px;
       font-weight: bold;
       padding: 5px 20px;
