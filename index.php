@@ -26,7 +26,7 @@
             <button type="button" class="btn btn-outline-dark">See more ...</button>
             </div>
             <div class="col">
-                <img src="images/test.JPG" alt="photo" style="width: 70%; height: 100%;">
+                <img src="images/img.png" alt="photo" style="width: 70%; border-style: groove;">
             </div>
         </div>
         
