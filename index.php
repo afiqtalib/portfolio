@@ -25,7 +25,7 @@
             <button type="button" class="btn btn-outline-dark">See more ...</button>
             </div>
             <div class="col">
-                <img src="icon.JPG" alt="photo" style="width: 70%; height: 100%;">
+                <img src="images/icon.JPG" alt="photo" style="width: 70%; height: 100%;">
             </div>
         </div>
         
