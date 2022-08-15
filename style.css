@@ -31,7 +31,15 @@ html
 
 .about-section {
     padding: 100px 50px;
-    background-color: #F8f7f9;
+    background-color: #1E2029;
+}
+
+.text {
+    color: #FFFF;
+}
+
+.button {
+    color: #9A6AFF;
 }
 
 .education-section {

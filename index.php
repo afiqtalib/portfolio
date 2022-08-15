@@ -47,28 +47,28 @@
             </div>
             <div class="col-7">
                 <div class="p-3 border bg-light">
-                    <div class="row">
-                        <div class="col-3">Name</div>
-                        <div class="col-6">Muhammad Afiq Bin Talib Ali</div>
+                    <div class="row p-2">
+                        <div class="col-1"><i class="bi bi-person-circle" style="font-size:2rem"></i></div>
+                        <div class="col text">Muhammad Afiq Bin Talib Ali</div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">Age</div>
+                    <div class="row p-2">
+                        <div class="col-3"><i class="bi bi-gender-male" style="font-size:2rem;  color: black;" ></i></div>
                         <div class="col-6">22 Years Old</div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">Contact No.</div>
+                    <div class="row p-2">
+                        <div class="col-3"><i class="bi bi-telephone" style="font-size:2rem;" ></i></div>
                         <div class="col-6">011-21828562</div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">Email</div>
+                    <div class="row p-2">
+                        <div class="col-3"><i class="bi bi-envelope" style="font-size:2rem;" ></i></div>
                         <div class="col-6">afiqtalib2580@gmail.com</div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">From</div>
+                    <div class="row p-2">
+                        <div class="col-3"><i class="fa fa-home" style="font-size:2rem;"></i></div>
                         <div class="col-6">Kota Bharu, Kelantan</div>
                     </div>
-                    <div class="row">
-                        <div class="col-3">Linked In</div>
+                    <div class="row p-2">
+                        <div class="col-3"><i class="fa fa-linkedin" style="font-size:2rem;"></i></div>
                         <div class="col-6">linkedin.com/in/afiqtalib</div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     Currently, i looking for job related with my interested.describe about me
                     </span>
                         <h5>talk about profile summary and email full name no contact</h5>
-                            <button type="button" class="btn btn-outline-info">Download CV</button>
+                            <button type="button" class="btn btn-primary button">Download CV</button>
 
             </div>
         </div>
