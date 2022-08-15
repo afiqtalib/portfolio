@@ -53,16 +53,19 @@ html
 .education-section {
     padding: 100px 50px;
     background-color: #F8f7f9;
+    padding-left: 150px;
 }
 
 .skill-section {
     padding: 100px 50px;
     background-color: #F8f7f9;
+    padding-left: 150px;
 }
 
 .language-section {
     padding: 100px 50px;
     background-color: #F8f7f9;
+    padding-left: 150px;
 }
 
 .activity-section {
@@ -73,4 +76,5 @@ html
 .experience-section {
     padding: 100px 50px;
     background-color: #F8f7f9;
+    padding-left: 150px ;
 }
