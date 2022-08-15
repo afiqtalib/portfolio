@@ -31,15 +31,23 @@ html
 
 .about-section {
     padding: 100px 50px;
-    background-color: #1E2029;
+    background-color: #b2bff8;
 }
 
 .text {
-    color: #FFFF;
+    color: #091540;
+    padding-top: 8px;
+    font-size: 20px;
 }
 
 .button {
     color: #9A6AFF;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: auto;
+}
+.float-right {
+    float: right;
 }
 
 .education-section {
