@@ -24,6 +24,7 @@
                 <h2>I am Muhammad Afiq</h2><br>
                 <h4>Looking for Internship Placement</h4><br><br>
                 <h4>Web Developer • Web Designer • Data Analyst • Data Management • IT Support</h4><br><br>
+                <div id="clockDisplay" class="clock" onload="showTime()">haii</div>
             <button type="button" class="btn btn-outline-dark">See more ...</button>
             </div>
             <div class="col">
