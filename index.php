@@ -22,10 +22,9 @@
         <div class="row">
             <div class="col">
                 <h2>I am Muhammad Afiq</h2><br>
-                <h4>Looking for Internship Placement</h4><br><br>
-                <h4>Web Developer • Web Designer • Data Analyst • Data Management • IT Support</h4><br><br>
-                <div id="clockDisplay" class="clock" onload="showTime()">haii</div>
-            <button type="button" class="btn btn-outline-dark">See more ...</button>
+                <h4>Looking for Job Position in</h4><br><br>
+                <h4>Software engineer • System Engineer • Data Management • IT Support</h4><br><br>
+                <div id="digital-clock"></div>
             </div>
             <div class="col">
                 <img src="images/img.png" alt="photo" style="width: 70%; border-style: groove;">
@@ -71,10 +70,10 @@
                     </div>
                     <div class="row p-2">
                         <div class="col-1"><i class="fa fa-linkedin" style="font-size:2rem;"></i></div>
-                        <div class="col-6 text">linkedin.com/in/afiqtalib</div>
+                        <a class="col-6 text" href="https://www.linkedin.com/in/afiqtalib/">Linked In</a>
                     </div>
                 </div>
-                <div class="text text-center">
+                <div class="text" style="text-align:justify;">
                     <span>My name is Muhammad Afiq Bin Talib Ali <br> I interested in web development 
                     I is hardworking and passionate person in venturing my interested and new things. 
                     My interested is in web desinger, web development and data management.
@@ -160,7 +159,7 @@
 
 <!-- SKILLS -->
 <section class="skill-section" id="skills">
-    <div class="container">
+    <div class="container-fluid">
         <div class="section_heading">
             <h2>SKILLS</h2>
         </div>
@@ -237,11 +236,6 @@
                 
             </div>
         </div>
-        <!-- <ul class="list-group list-group-flush">
-            <li class="list-group-item">MALAY</li>
-            <li class="list-group-item">ENGLISH</li>
-            <li class="list-group-item">ARABIC</li>
-        </ul> -->
     </div>
 </section>
 
@@ -286,7 +280,6 @@
         </div>
     </div>
 </section>
-
 
 </body>
 </html>

@@ -13,16 +13,6 @@ html
     background-color: #F8f7f9;
 }
 
-.clock {
-    color:whitesmoke;
-    font-family: system-ui;
-    background: #0051ff;
-    text-align: center;
-    border-radius: 15px;
-    padding: 10px 10px ;
-    margin-bottom: 50px;
-}
-
 .section_heading
 {
     text-align: center;
