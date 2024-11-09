@@ -23,7 +23,7 @@
             <div class="col">
                 <h2>I am Muhammad Afiq</h2><br>
                 <h4>Looking for Job Position in</h4><br><br>
-                <h4>Software engineer • System Engineer • Data Management • IT Support</h4><br><br>
+                <h4>Software engineer • System Engineer • Programmer • IT Support</h4><br><br>
                 <div id="digital-clock"></div>
             </div>
             <div class="col">
