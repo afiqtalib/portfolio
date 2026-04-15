@@ -473,6 +473,156 @@ section {
   margin-bottom: 0;
 }
 
+.about-modern {
+  background: #f8f9fa;
+}
+
+/* LEFT CARD */
+.profile-card {
+  position: relative;
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.profile-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  background: linear-gradient(
+    120deg,
+    #003cff,   /* deep blue */
+    #0563bb,   /* main */
+    #00c6ff,   /* neon cyan */
+    #4facfe,   /* light blue */
+    #0d6efd,   /* bootstrap blue */
+    #003cff
+  );
+  background-size: 300% 300%;
+  animation: borderMove 4s linear infinite;
+  z-index: -1;
+}
+
+/* 🔥 inner white layer (so border nampak je) */
+.profile-card::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #fff;
+  border-radius: 14px;
+  z-index: -1;
+}
+
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 400% 50%;
+  }
+}
+
+/* IMAGE */
+.profile-img-wrapper {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 5px;
+  background: #0563bb;
+}
+
+.profile-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* STATS */
+.profile-stats h5 {
+  color: #0563bb;
+  margin-bottom: 0;
+}
+
+/* RIGHT INFO CARD */
+.info-card {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: 0.25s;
+}
+
+
+.info-card:hover {
+  transform: translateY(-4px);
+  border-color: #0563bb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.info-card small {
+  color: #999;
+  font-size: 12px;
+}
+
+.info-card h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 8px;
+  background: #eaf2ff;
+  color: #0563bb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* DOWNLOAD BUTTON (PRIMARY) */
+.btn-download {
+  background: #0563bb;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.btn-download:hover {
+  background: #0454a0;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(5, 99, 187, 0.25);
+}
+
+/* CONTACT BUTTON (SOFT VERSION) */
+.btn-contact {
+  background: rgba(5, 99, 187, 0.08);
+  color: #0563bb;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.25s ease;
+}
+
+.btn-contact:hover {
+  background: #0563bb;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -551,6 +701,22 @@ section {
   background-color: #0563bb;
 }
 
+.skill-pill {
+  padding: 6px 14px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  color: #45505b;
+  transition: all 0.3s ease;
+}
+
+.skill-pill:hover {
+  background: #0563bb;
+  border-color: #0563bb;
+  color: #fff;
+  transform: translateY(-4px);
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -1050,6 +1216,84 @@ section {
   }
 }
 
+/* PROJECT CARD */ 
+.project-card {
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.02);
+}
+
+/* IMAGE */
+.project-img {
+  flex: 1;
+  min-height: 250px;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.project-content {
+  flex: 1;
+  padding: 25px;
+}
+
+/* COMPANY */
+.company {
+  color: #777;
+  font-size: 14px;
+}
+
+/* YEAR */
+.project-year {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* TAG */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.project-tags span {
+  background: #eef4ff;
+  color: #0563bb;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* POINTS */
+.project-points {
+  padding-left: 18px;
+}
+
+.project-points li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* SWIPER STYLE */
+.testimonials-slider {
+  padding: 30px 0;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
