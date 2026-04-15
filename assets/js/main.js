@@ -138,18 +138,18 @@
   /**
    * Hero type effect
    */
-  const typed = select('.typed')
-  if (typed) {
-    let typed_strings = typed.getAttribute('data-typed-items')
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
+  // const typed = select('.typed')
+  // if (typed) {
+  //   let typed_strings = typed.getAttribute('data-typed-items')
+  //   typed_strings = typed_strings.split(',')
+  //   new Typed('.typed', {
+  //     strings: typed_strings,
+  //     loop: true,
+  //     typeSpeed: 100,
+  //     backSpeed: 50,
+  //     backDelay: 2000
+  //   });
+  // }
 
   /**
    * Skills animation
@@ -234,19 +234,31 @@
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
+  new Swiper(".testimonials-slider", {
+    speed: 800,
     loop: true,
+    centeredSlides: true,
+    slidesPerView: 1.2,
+    spaceBetween: 30,
+
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 4000,
+      disableOnInteraction: false,
     },
-    slidesPerView: 'auto',
+
     pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+    breakpoints: {
+      768: {
+        slidesPerView: 1.2,
+      },
+      1024: {
+        slidesPerView: 1.5,
+      },
+    },
   });
 
   /**
@@ -267,3 +279,23 @@
   new PureCounter();
 
 })()
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  document.querySelectorAll('.typed').forEach((el) => {
+    let items = el.getAttribute('data-typed-items');
+
+    if (items) {
+      let strings = items.split(',').map(i => i.trim());
+
+      new Typed(el, {
+        strings: strings,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+      });
+    }
+  });
+
+});
